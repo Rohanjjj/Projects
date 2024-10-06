@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Light blue gradient background */
+  border-radius: 8px; /* Rounded corners for the popup */
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+  background: linear-gradient(90deg, #00c6ff, #0072ff); /* Blue gradient heading background */
+  padding: 10px;
+  border-radius: 5px;
+  color: white; /* White text on gradient background */
+}
+
+#summary {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: linear-gradient(135deg, #f5f7fa, #e4e7ee); /* Light gray gradient for summary background */
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* Blue gradient for buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff); /* Reverse gradient on hover */
+}
